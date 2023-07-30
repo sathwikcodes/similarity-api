@@ -1,11 +1,10 @@
 
 
 ## Still Working on this!!
- <img src="1.png" width="100"/>
- <img src="2.png" width="100"/>
+ <img src="https://github.com/sathwikcodes/similarity-api/assets/93999183/6c0073cd-28e9-40b1-9ff6-6532979a25bf" />
+ <img src="https://github.com/sathwikcodes/similarity-api/assets/93999183/d94b68cd-5890-4eea-ab05-a8b69a9fd408" />
 
- <img src="3.png" width="100"/>
- ![image](https://github.com/sathwikcodes/similarity-api/assets/93999183/b512b1b0-7f2b-4bbd-aef2-97154deb866e)
+
 
 
 First, run the development server:
