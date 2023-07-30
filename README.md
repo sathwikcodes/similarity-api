@@ -1,6 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+
+## Still Working on this!!
+ <img src="1.png" width="100"/>
+ <img src="2.png" width="100"/>
+
+ <img src="3.png" width="100"/>
+ ![image](https://github.com/sathwikcodes/similarity-api/assets/93999183/b512b1b0-7f2b-4bbd-aef2-97154deb866e)
+
 
 First, run the development server:
 
