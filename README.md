@@ -1,41 +1,66 @@
+# Similarity API
 
+Welcome to Similarity API, a powerful tool for comparing the similarity between texts and paragraphs. With Similarity API, users can quickly and accurately determine the similarity percentage between two pieces of text or paragraphs, enabling a wide range of applications such as plagiarism detection, content analysis, and more.
 
-## Still Working on this!!
- <img src="https://github.com/sathwikcodes/similarity-api/assets/93999183/6c0073cd-28e9-40b1-9ff6-6532979a25bf" />
- <img src="https://github.com/sathwikcodes/similarity-api/assets/93999183/d94b68cd-5890-4eea-ab05-a8b69a9fd408" />
+## About the Project
 
+Similarity API provides a user-friendly interface for comparing the similarity between texts or paragraphs. The project leverages advanced algorithms to analyze the content and calculate the similarity percentage based on various metrics.
 
+One of the key features of Similarity API is the ability for users to generate their API keys, allowing them to integrate the similarity comparison functionality seamlessly into their own projects or applications.
 
+## Features
 
-First, run the development server:
+- **Text Similarity Comparison**: Compare the similarity between two texts or paragraphs.
+- **Custom API Generation**: Generate API keys for integrating similarity comparison functionality into external projects.
+- **Scalable and Reliable**: Built on a robust infrastructure to handle high volumes of requests with minimal downtime.
+- **Easy Integration**: Simple and well-documented API endpoints for seamless integration into third-party applications.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## How to Use
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Access Similarity API**: Visit the Similarity API website at [www.similarityapi.com](https://www.similarityapi.com).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Register/Login**: Create an account or log in to your existing account to access the similarity comparison tool.
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
+3. **Input Texts or Paragraphs**: Enter the texts or paragraphs you wish to compare into the provided input fields.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+4. **Generate API Key**: Navigate to the API key generation section to generate your custom API key for integration into your projects.
 
-## Learn More
+5. **Integrate API**: Use the generated API key to access the similarity comparison functionality in your own projects or applications.
 
-To learn more about Next.js, take a look at the following resources:
+## API Documentation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Endpoint**: `https://api.similarityapi.com/compare`
+- **Method**: POST
+- **Request Parameters**:
+  - `text1`: The first text or paragraph to compare (required)
+  - `text2`: The second text or paragraph to compare (required)
+  - `api_key`: Your generated API key (required)
+- **Response Format**: JSON
+- **Sample Response**:
+  ```json
+  {
+    "similarity_percentage": 85.27
+  }
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Credits
 
-## Deploy on Vercel
+- Project developed by [Sathwik Batta]
+- Technologies used:
+- Nextjs
+- Prisma
+- Mongodb
+- TailwindCss
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+  ## Screenshot
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Screenshot](https://github.com/sathwikcodes/similarity-api/blob/main/1.png)
+![Screenshot](https://github.com/sathwikcodes/similarity-api/blob/main/2.png)
+![Screenshot](https://github.com/sathwikcodes/similarity-api/blob/main/3.png)
+
+## Feedback and Contributions
+
+If you have any feedback, suggestions, or bug reports, feel free to [open an issue](https://github.com/sathwikcodes/similarity-api/issues) or submit a pull request. Contributions are always welcome!
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
